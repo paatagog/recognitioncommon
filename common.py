@@ -30,15 +30,15 @@ def get_face_rect(x_face, y_face, w_face, h_face, w_encoding, h_encoding):
 
 
 # ტესტები
-# print(getFaceRect(17, 26, 15, 17, 150, 170))
+# print(get_face_rect(17, 26, 15, 17, 150, 170))
 # (17, 26.0, 15, 17.0)
-# print(getFaceRect(17, 26, 15, 17, 170, 170))
+# print(get_face_rect(17, 26, 15, 17, 170, 170))
 # (16.0, 26, 17.0, 17)
-# print(getFaceRect(17, 26, 15, 17, 150, 190))
+# print(get_face_rect(17, 26, 15, 17, 150, 190))
 # (17, 25.0, 15, 19.0)
-# print(getFaceRect(17, 26, 15, 17, 150, 150))
+# print(get_face_rect(17, 26, 15, 17, 150, 150))
 # (16.0, 26, 17.0, 17)
-# print(getFaceRect(17, 26, 150, 170, 15, 15))
+# print(get_face_rect(17, 26, 150, 170, 15, 15))
 # (7.0, 26, 170.0, 170)
 
 
